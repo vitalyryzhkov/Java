@@ -3,6 +3,15 @@
  */
 public class test {
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        int a = 2;
+
+        System.out.println(IsDigit(a));
     }
-}
+
+    public static boolean IsDigit(int a) {
+        if (a % 2 != 0) {
+            return false;
+        }
+        return true;
+    }
+    }
